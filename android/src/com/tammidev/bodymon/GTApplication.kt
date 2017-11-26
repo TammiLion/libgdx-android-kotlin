@@ -16,4 +16,8 @@ class GTApplication : Application() {
         component.inject(this)
         //MobileAds.initialize(this, "ca-app-pub-8794565842069067~2344003370");
     }
+
+    fun getAppComponent(): AppComponent {
+        return component;
+    }
 }

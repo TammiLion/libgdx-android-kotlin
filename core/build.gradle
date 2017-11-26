@@ -22,4 +22,6 @@ dependencies {
 
     testCompile "junit:junit:$junitVersion"
     testCompile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+    compile 'com.badlogicgames.gdx:gdx:1.9.6'
+    compile 'com.badlogicgames.gdx:gdx:1.9.6'
 }
