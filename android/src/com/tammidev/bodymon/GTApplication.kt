@@ -8,6 +8,7 @@ class GTApplication : Application() {
         DaggerAppComponent
                 .builder()
                 .appModule(AppModule(this))
+                .apiModule(ApiModule(Constants.BASE_URL))
                 .build()
     }
 
